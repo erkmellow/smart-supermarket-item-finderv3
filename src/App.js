@@ -298,7 +298,7 @@ function App() {
   return (
     <div className="App">
     {!isLoggedIn && ( // Only show header if not logged in
-    <header className="text-center mb-4" style={{ marginTop: '10%' }}>
+    <header className="text-center mb-4" style={{ marginTop: '7%' }}>
       <img src={`${process.env.PUBLIC_URL}/logo512.png`} alt="EasyMart MALL Logo" style={{ width: '150px' }} />
       <h1>EasyMart MALL Navigation</h1>
     </header>
@@ -306,8 +306,8 @@ function App() {
 
       {!isLoggedIn ? (
         <div className="d-flex justify-content-center align-items-center min-vh-100">
-      <div style={{ maxWidth: '90%', width: '90%', marginTop: '-30%' }}> {/* Adjust to percentage for mobile responsiveness */}
-      <h2 className="text-center mb-4">Login</h2>
+    <div style={{ maxWidth: '90%', width: '90%', marginTop: window.innerWidth < 768 ? '-90%' : '-30%' }}>
+    <h2 className="text-center mb-4">Login</h2>
             <form onSubmit={handleLogin}>
               <div className="mb-3">
                 <label htmlFor="login-username" className="form-label">Username</label>
