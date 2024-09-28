@@ -6,12 +6,12 @@ import './App.css';
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAUjjIy9Sd5r8T5nxIinHbcseCvNHKKag4",
+  apiKey: "AIzaSyBiuWoeQqVko2Mqn0qyu49mMAreYlPRbu0",
   authDomain: "schoolbus-led.firebaseapp.com",
-  databaseURL: "https://schoolbus-led-default-rtdb.firebaseio.com",
-  projectId: "schoolbus-led",
-  storageBucket: "schoolbus-led.appspot.com",
-  messagingSenderId: "1056264797823",
+  databaseURL: "https://item-finder-dc65b-default-rtdb.asia-southeast1.firebasedatabase.app/",
+  projectId: "item-finder-dc65b",
+  storageBucket: "item-finder-dc65b.appspot.com",
+  messagingSenderId: "928252308497",
   appId: "YOUR_APP_ID" // Replace with your app ID from Firebase project settings
 };
 
@@ -299,8 +299,8 @@ function App() {
     <div className="App">
     {!isLoggedIn && ( // Only show header if not logged in
     <header className="text-center mb-4" style={{ marginTop: '10%' }}>
-      <img src={`${process.env.PUBLIC_URL}/logo512.png`} alt="iSHOPEE MALL Logo" style={{ width: '100px' }} />
-      <h1>iSHOPEE MALL</h1>
+      <img src={`${process.env.PUBLIC_URL}/logo512.png`} alt="EasyMart MALL Logo" style={{ width: '150px' }} />
+      <h1>EasyMart MALL Navigation</h1>
     </header>
   )}
 
