@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/smart-supermarket-item-finderv3/static/css/main.1736ea58.css",
+    "main.js": "/smart-supermarket-item-finderv3/static/js/main.d6f712ee.js",
+    "static/js/453.2562629c.chunk.js": "/smart-supermarket-item-finderv3/static/js/453.2562629c.chunk.js",
+    "index.html": "/smart-supermarket-item-finderv3/index.html",
+    "main.1736ea58.css.map": "/smart-supermarket-item-finderv3/static/css/main.1736ea58.css.map",
+    "main.d6f712ee.js.map": "/smart-supermarket-item-finderv3/static/js/main.d6f712ee.js.map",
+    "453.2562629c.chunk.js.map": "/smart-supermarket-item-finderv3/static/js/453.2562629c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1736ea58.css",
+    "static/js/main.d6f712ee.js"
+  ]
+}
